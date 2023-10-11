@@ -14,7 +14,7 @@ public class Server {
                  PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true)) {
 
                 Random random = new Random();
-                int numeroDaIndovinare = random.nextInt(100) + 1;
+                int numeroDaIndovinare = 44;//random.nextInt(100) + 1;
                 int tentativi = 0;
 
                 out.println("Benvenuto! Indovina un numero compreso tra 1 e 100.");
